@@ -13,6 +13,7 @@ $FontAwesomePath: "aui/alloy-font-awesome/font" !default;
 	//@import "aui/bootstrap"; // Remove >> Bootstrap 2.3.2
 	@import "aui/variables-alloy";
 	@import "aui/variables";
+	@import "aui/bs3/bootstrap"; // Add >> Bootstrap 3.5
 
 	@import "aui_custom";
 	//@import "aui/responsive"; // Remove >> Bootstrap 2.3.2 responsive
