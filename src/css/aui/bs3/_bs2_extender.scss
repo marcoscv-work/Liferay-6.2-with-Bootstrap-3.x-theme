@@ -1,0 +1,342 @@
+// This file extend Bootstrap 2.3.2 classes with equals from Bootstrap 3.x
+
+@import "mixins";
+
+// General classes
+
+.collapse {
+	@include respond-to(desktop) {
+		display: block;
+	}
+}
+
+.divider {
+	margin: 0 5px;
+}
+
+.muted {
+	@extend .text-muted;
+}
+
+.modal {
+	display: block;
+
+	&.modal-hidden {
+		display: none;
+	}
+}
+
+.hero-unit {
+	@extend .jumbotron;
+}
+
+// Accesibility
+
+.hide-accessible {
+	@extend .sr-only;
+}
+
+// Alerts
+
+.alert {
+	@extend .alert-warning;
+}
+
+.alert-error {
+	@extend .alert-danger;
+}
+
+// Buttons
+
+.btn {
+	@extend .btn-default;
+}
+
+.btn-mini {
+	@extend .btn-xs;
+}
+
+.btn-small {
+	@extend .btn-sm;
+}
+
+.btn-large {
+	@extend .btn-lg;
+}
+
+.btn-navbar {
+	@extend .navbar-btn;
+}
+
+// Nav
+
+.nav {
+	@extend .navbar-nav;
+
+	&.nav-tabs, &.nav-pills {
+		float: none;
+	}
+}
+
+.navbar {
+	@extend .navbar-default;
+
+	.btn-navbar {
+		@include respond-to(desktop) {
+			display: none;
+		}
+	}
+}
+
+.nav-list, .nav-header {
+	@extend .panel-group;
+}
+
+.brand {
+	@extend .navbar-brand;
+}
+
+// Lists
+
+ul.unstyled {
+	@extend .list-unstyled;
+}
+
+ul.inline {
+	@extend .list-inline;
+}
+
+// Visibility
+
+.visible-phone {
+	@extend .visible-xs;
+}
+
+.visible-tablet {
+	@extend .visible-sm;
+}
+
+.visible-desktop {
+	@extend .visible-md;
+}
+
+.hidden-phone {
+	@extend .hidden-xs;
+}
+
+.hidden-tablet {
+	@extend .hidden-sm;
+}
+
+.hidden-desktop {
+	@extend .hidden-md;
+}
+
+// Forms
+
+.input-block-level {
+	@extend .form-control;
+}
+
+.control-group {
+	@extend .form-group;
+}
+
+.control-group.warning {
+	@extend .has-warning;
+}
+
+.control-group.error {
+	@extend .has-error;
+}
+
+.control-group.success {
+	@extend .has-success;
+}
+
+.checkbox.inline {
+	@extend .checkbox-inline;
+}
+
+.radio.inline {
+	@extend .radio-inline;
+}
+
+.input-prepend, .input-append {
+	@extend .input-group;
+}
+
+.add-on {
+	@extend .input-group-addon;
+
+	width: initial;
+}
+
+.label {
+	@extend .label-default;
+}
+
+.label-important {
+	@extend .label-danger;
+}
+
+.text-error {
+	@extend .text-danger;
+}
+
+.table .error {
+	@extend .danger;
+}
+
+// Images
+
+.img-polaroid {
+	@extend .img-thumbnail;
+}
+
+// Progress bar
+
+.bar {
+	@extend .progress-bar;
+}
+
+.bar-success {
+	@extend .progress-bar-success;
+}
+
+.bar-info {
+	@extend .progress-bar-info;
+}
+
+.bar-warning {
+	@extend .progress-bar-warning;
+}
+
+.bar-danger {
+	@extend .progress-bar-danger;
+}
+
+// Accordion
+
+.accordion {
+	@extend .panel-group;
+}
+
+.accordion-group {
+	@extend .panel;
+	@extend .panel-default;
+}
+
+.accordion-heading {
+	@extend .panel-heading;
+}
+
+.accordion-body {
+	@extend .panel-collapse;
+}
+
+.accordion-inner {
+	@extend .panel-body;
+}
+
+// Grid
+
+.row-fluid {
+	@extend .row;
+}
+
+.span1 {
+	@extend .col-md-1;
+}
+
+.span2 {
+	@extend .col-md-2;
+}
+
+.span3 {
+	@extend .col-md-3;
+}
+
+.span4 {
+	@extend .col-md-4;
+}
+
+.span5 {
+	@extend .col-md-5;
+}
+
+.span6 {
+	@extend .col-md-6;
+}
+
+.span7 {
+	@extend .col-md-7;
+}
+
+.span8 {
+	@extend .col-md-8;
+}
+
+.span9 {
+	@extend .col-md-9;
+}
+
+.span10 {
+	@extend .col-md-10;
+}
+
+.span11 {
+	@extend .col-md-11;
+}
+
+.span12 {
+	@extend .col-md-12;
+}
+
+.offset1 {
+	@extend .col-md-offset-1;
+}
+
+.offset2 {
+	@extend .col-md-offset-2;
+}
+
+.offset3 {
+	@extend .col-md-offset-3;
+}
+
+.offset4 {
+	@extend .col-md-offset-4;
+}
+
+.offset5 {
+	@extend .col-md-offset-5;
+}
+
+.offset6 {
+	@extend .col-md-offset-6;
+}
+
+.offset7 {
+	@extend .col-md-offset-7;
+}
+
+.offset8 {
+	@extend .col-md-offset-8;
+}
+
+.offset9 {
+	@extend .col-md-offset-9;
+}
+
+.offset10 {
+	@extend .col-md-offset-10;
+}
+
+.offset11 {
+	@extend .col-md-offset-11;
+}
+
+.offset12 {
+	@extend .col-md-offset-12;
+}
