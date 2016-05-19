@@ -1,0 +1,77 @@
+// modal fixex
+
+.modal {
+	.modal-body {
+		overflow-y: auto;
+	}
+
+	.modal-header h3 {
+		margin: 0;
+	}
+}
+
+.portal-popup {
+	.nav-tabs, .nav-pills {
+		margin-bottom: 20px;
+	}
+
+	.checkbox {
+		padding-left: 30px;
+	}
+}
+
+// dockbar fixex
+
+.dockbar {
+	.navbar-static-top {
+		margin-bottom: 0;
+	}
+
+	.user-notification-link {
+		padding: 10px 15px;
+	}
+}
+
+// Admin panels
+
+.lfr-admin-panel {
+	.row-fluid, .container {
+		margin-left: 0;
+		margin-right: 0;
+		width: 100%;
+	}
+
+	.nav-tabs, .nav-pills {
+		margin-bottom: 20px;
+	}
+
+	.control-group {
+		@extend .clearfix;
+	}
+
+	.lfr-device-item {
+		height: auto;
+	}
+
+	.alert {
+		display: table;
+	}
+
+	.lfr-page-layouts {
+		padding-left: 30px;
+	}
+}
+
+// nav-list fix
+
+.nav-list {
+	li {
+		width: 100%;
+	}
+}
+
+// form-control is the default BS3 class for form items
+
+input[type=text].field, .aui-field-select, textarea {
+	@extend .form-control;
+}

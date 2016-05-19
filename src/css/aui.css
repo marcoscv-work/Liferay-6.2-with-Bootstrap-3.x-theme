@@ -15,6 +15,7 @@ $FontAwesomePath: "aui/alloy-font-awesome/font" !default;
 	@import "aui/variables";
 	@import "aui/bs3/bootstrap"; // Add >> Bootstrap 3.5
 	@import "aui/bs3/bs2_extender"; // Bootstrap Extender by: Marcos Castro
+	@import "aui/bs3/bs_liferay_fixes"; // Bootstrap 3 fixes for Liferay components by: Marcos Castro
 
 	@import "aui_custom";
 	//@import "aui/responsive"; // Remove >> Bootstrap 2.3.2 responsive
