@@ -72,6 +72,6 @@
 
 // form-control is the default BS3 class for form items
 
-input[type=text].field, .aui-field-select, textarea {
+input[type=text].field, input[type=password].field, .aui-field-select, textarea {
 	@extend .form-control;
 }
