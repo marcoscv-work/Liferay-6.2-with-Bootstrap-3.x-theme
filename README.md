@@ -8,9 +8,10 @@ For this I created a new directory called "bs3" into AUI directory, here "Bootst
 
 This theme does not require any change in portal code, it is only a Liferay 6.2 theme.
 
-## Using this CSS files in a Lieray theme
+## Using these CSS files in a Lieray theme
 
-- If you are using new SDK based on Gulp, please, copy the CSS files to *src/css*
-- If instead you are using the normal SDK, please, copy the CSS files to *_diffs/css*
+- If you are using new SDK based on Gulp, please, copy CSS files to *src/css*
+- If instead you are using the normal SDK, please, copy CSS files to *_diffs/css*
+
 
 ![Example of this theme applied in Liferay 6.2 GA6](https://raw.githubusercontent.com/marcoscv-work/Liferay-6.2-with-Bootstrap-3.x-theme/master/Liferay_6.2_with_BS3_preview.gif)
