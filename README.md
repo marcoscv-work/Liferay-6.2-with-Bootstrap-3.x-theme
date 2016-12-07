@@ -1,4 +1,4 @@
-# Liferay-6.2-with-Bootstrap-3.x-theme (Currently Bootstrap 3.3.6)
+# Liferay-6.2-with-Bootstrap-3.x-theme (Currently Bootstrap 3.3.7)
 
 This project provide one of ways to remove Bootstrap 2.3.2 from Liferay 6.2 and use Bootstrap 3.x.
 For this I created a new directory called "bs3" into AUI directory, here "Bootstrap 3 SASS" files are placed, and two custom files:
@@ -12,6 +12,12 @@ This theme does not require any change in portal code, it is only a Liferay 6.2 
 
 - If you are using new SDK based on Gulp, please, copy CSS files to *src/css*
 - If instead you are using the normal SDK, please, copy CSS files to *_diffs/css*
+
+
+This repository has branches with previous bootstrap implementations, by the moment:
+
+https://github.com/marcoscv-work/Liferay-6.2-with-Bootstrap-3.x-theme/tree/bootstrap.3.3.5-based
+https://github.com/marcoscv-work/Liferay-6.2-with-Bootstrap-3.x-theme/tree/bootstrap.3.3.6-based
 
 
 ![Example of this theme applied in Liferay 6.2 GA6](https://raw.githubusercontent.com/marcoscv-work/Liferay-6.2-with-Bootstrap-3.x-theme/master/Liferay_6.2_with_BS3_preview.gif)
